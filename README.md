@@ -1431,7 +1431,7 @@ fig.show()
 
 ```
 
-
+![png](3D_Scatter.png)
 
 
 ```python
@@ -1440,7 +1440,7 @@ clustered_df.hvplot.table(sortable=True, selectable=True)
 ```
 
 
-
+![png](hv_table.png)
 
 
 
@@ -1597,7 +1597,7 @@ plot_df.head(10)
 plot_df.hvplot.scatter(x="TotalCoinsMined", y="TotalCoinSupply", by="class",hover_cols = ["CoinName"])
 
 ```
-
+![png](hv_scatter.png)
 
 
 

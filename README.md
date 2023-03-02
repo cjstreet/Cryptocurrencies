@@ -1,16 +1,28 @@
 # Cryptocurrencies
+Use unsupervised learning algorithms (PCA & K-Means) to predict cryptocurrency investments.
 
 
+## Overview
+Use unsupervised learning algorithms (PCA & K-Means) to on what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
+
+Overview of Steps: 
+1. Preprocessing the Data for PCA
+2. Reducing Data Dimensions Using PCA
+3. Clustering Cryptocurrencies Using K-means 
+4. Visualizing and Evaluate Cryptocurrencies Results 
 
 
+## Resources
 
+* Data Source: crypto_data.csv, https://min-api.cryptocompare.com/data/all/coinlist
+* ML Libraries: sklearn, plotly, hvplot, matplotlib
+* Python 3.11
+* Jupyter NB
 
-
-
+## Results: 
 
 
 # Clustering Crypto
-
 
 ```python
 # Initial imports
